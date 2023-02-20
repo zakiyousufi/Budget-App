@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+@import "font-awesome";
+
+.blue {
+  color: #3770c2;
+}
+
+.green {
+  color: #5fb523;}
+
+.signup {
+  background-color: #4b525a07;
+  width: 80%;
+  margin: 180px 10%;
+}
+
+@media (min-width: 768px) {
+  .signup {
+    width: 30%;
+    margin: 120px 35%;
+  }
+}
