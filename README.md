@@ -90,7 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo link](https://budget-app-83tq.onrender.com)
+- [Live Demo link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 📹 Project Documentation
 
-[Video Link](https://youtu.be/ym6x0IwJQS8)
+[Video Link]
 
 <!-- GETTING STARTED -->
 
@@ -154,13 +154,12 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-👤 **Zuhaib Amjad**
+👤 **Ahmad Zaki Yousufi**
 
-- GitHub: [@Zuhaib042](https://github.com/Zuhaib042)
-- Twitter: [@Zuhaib042](https://twitter.com/Zuhaib042)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@zskiyousufi](https://github.com/zakiyousufi)
+- LinkedIn: [zakiyousufi](https://linkedin.com/in/zakiyousufi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
