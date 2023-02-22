@@ -124,7 +124,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/Zuhaib042/budget-app.git
+git clone https://github.com/zakiyousufi/Budget-App.git
 ```
 
 ### Install
