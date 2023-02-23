@@ -1,7 +1,7 @@
 databases:
   - name: BudgetApp
     databaseName: <%= ENV["DATABASE_URL"] %>
-    user: budget_app_development
+    user: <%= ENV["DATABASE_USERNAME"] %>
 
 services:
   - type: web
