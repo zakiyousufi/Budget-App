@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe 'Entities', type: :request do
   before(:example) do
     @user = User.create(
-      name: 'Zuhaib',
-      email: 'zuhaib@example.com',
+      name: 'zaki',
+      email: 'zaki@example.com',
       password: '123456'
     )
     @group = Group.create(name: 'Shopping', author_id: @user.id)

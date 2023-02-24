@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe 'Groups', type: :request do
   let(:user) do
     User.create(
-      name: 'Zuhaib',
-      email: 'zuhaib@example.com',
+      name: 'zaki',
+      email: 'zaki@example.com',
       password: '123456'
     )
   end
