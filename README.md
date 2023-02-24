@@ -89,8 +89,11 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [video](https://www.loom.com/share/896f6d78acc8417f90effef489df4051)
 - [Live Demo link](https://budget-planner-app.onrender.com)
+
+## 📹 Project Documentation
+
+[Video Link](https://www.loom.com/share/a3d93229bcc2492788f315f2ce6ee755)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,10 +102,6 @@ After you're finished please remove all the comments and instructions!
 ![diagram](./app/assets/images/erd_budget_app.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📹 Project Documentation
-
-[Video Link]
 
 <!-- GETTING STARTED -->
 
