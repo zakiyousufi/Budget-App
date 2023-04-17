@@ -1,22 +1,18 @@
-<div class="grid">
+  <h1 class="h2"> Transactions
+  </h1>
   <span>
-    <%= link_to 'Back' , groups_path, class: 'btn-secound bg-second py-1 px-2 rounded font-semibold text-white' %>
-  </span>
-  <span class="text-2xl font-bold text-text justify-self-center self-center"> Transactions
-  </span>
-</div>
-<div class="categories-container flex justify-between">
-<div class="flex flex-col w-1/2 md-100">
+  <%= link_to 'Back' , groups_path, class: 'btn-mini back-btn' %>
+</span>
+<div class="categories-container">
+<div class="flex flex-col">
 <% @entities.each do |entity| %>
-  <div class="flex justify-between items-center">
-    <div class="flex items-center gap-3 my-3">
-      <span class="text-xl font-semibold"><%= entity.name %></span>
-      <span>$<%= entity.amount%></span>
-    </div>
-    <div class="flex gap-2">
-      <div class="btn-edit font-medium p-1 rounded bg-blue-500 text-white dark:text-white hover:underline"> <%= link_to "Edit", edit_group_entity_path(@group, entity) %> <i class="fa-solid fa-pen-to-square"></i> </div>
-      <div class="btn-delete font-medium p-1 rounded bg-red-500 text-white dark:text-white hover:underline">
-      <%= link_to "Delete", group_entity_path(@group, entity), data:  { turbo_method: :delete } %> <i class="fa-solid fa-trash"></i> </div>
+  <div class="category">
+      <span class="item"><%= entity.name %></span>
+      <span class="text item">$<%= entity.amount%></span>
+    <div class="btns">
+      <div class="btn-edit btn-mini"> <%= link_to "Edit", edit_group_entity_path(@group, entity), class: 'txt-white' %> <i class="fa-solid fa-pen-to-square"></i> </div>
+      <div class="btn-delete btn-mini">
+      <%= link_to "Delete", group_entity_path(@group, entity), class: 'txt-white', data:  { turbo_method: :delete } %> <i class="fa-solid fa-trash"></i> </div>
     </div>
   </div>
 <% end %>
