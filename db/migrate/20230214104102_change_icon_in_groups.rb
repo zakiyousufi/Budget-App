@@ -1,5 +1,5 @@
 class ChangeIconInGroups < ActiveRecord::Migration[7.0]
   def change
-    change_column :groups, :icon, :string, default: "https://cdn-icons-png.flaticon.com/512/6428/6428645.png"
+    change_column :groups, :icon, :string, default: "https://za.mintgroup.net/wp-content/uploads/2021/04/Financial-Services-1.png"
   end
 end
