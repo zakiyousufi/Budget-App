@@ -52,6 +52,8 @@ After you're finished please remove all the comments and instructions!
 
 **[Budget-app]** is a simple budget app in which any user can first sign up and then have multiple categories for his expenses and every category has multiple transactions. it tracks all the transactions and present with the sum of total of all the transactions and also total amount of each category.
 
+![Untitled design (1)](https://user-images.githubusercontent.com/87229464/232599049-39ca6bfe-4492-4150-81d9-677302f0aa1d.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -89,7 +91,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo link](https://budget-planner-app.onrender.com)
+- [Live Demo link](https://budget-planner-app.onrender.com/)
 
 ## 📹 Project Documentation
 
