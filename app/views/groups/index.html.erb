@@ -1,6 +1,6 @@
 <h1 class="h2">Categories</h1>
 <div class="categories-container">
-<div class="flex flex-col w-1/2 md-100">
+<div class="flex flex-col">
   <% @groups.each do |group| %>
     <div class="category">
       <div class="category-details">
@@ -8,11 +8,11 @@
         <span class="item">
           <%= link_to group.name, group_entities_path(group), class: 'text' %>
         </span>
-        <span class="text item">
+        <span class="text item price">
           $<%= group.entities.reduce(0) { |sum, e| sum + e.amount } %>
         </span>
       </div>
-      <div class="flex gap-2">
+      <div class="btn">
         <div class="btn-edit btn-mini"> <%= link_to "Edit", edit_group_path(group), class: 'txt-white' %> <i class="fa-solid fa-pen-to-square"></i> </div>
         <div class="btn-delete btn-mini"><%= link_to "Delete", group_path(group), class:'txt-white', data:  { turbo_method: :delete } %> <i class="fa-solid fa-trash"></i> </div>
       </div>
